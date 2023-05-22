@@ -272,7 +272,7 @@ M.setup = function()
 		["@keyword"] = { link = "Keyword" },
 		-- @keyword.coroutine   ; keywords related to coroutines (e.g. `go` in Go, `async/await` in Python)
 		-- @keyword.function    ; keywords that define a function (e.g. `func` in Go, `def` in Python)
-		["@keyword.function"] = { link = "Keyword" },
+		["@keyword.function"] = { link = "Include" },
 		-- @keyword.operator    ; operators that are English words (e.g. `and` / `or`)
 		["@keyword.operator"] = { link = "GruvboxRed" },
 		-- @keyword.return      ; keywords like `return` and `yield`
