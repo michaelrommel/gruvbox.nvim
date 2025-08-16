@@ -192,7 +192,7 @@ M.setup = function()
 
 		-- nvim-treesitter
 		-- See `nvim-treesitter/CONTRIBUTING.md`
-
+		TreesitterContextBottom = { link = "GruvboxPurpleUnderline" },
 		--
 		-- Misc
 		--
